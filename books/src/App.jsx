@@ -1,13 +1,18 @@
 import './App.css';
-import Booklist from '/components/BookList';
+import Booklist from './components/BookList';
+import Header from './components/Header';
+import Layout from './components/Layout';
 
 function App() {
 
 
   return (
     <>
-      <h1>Amazon Bestsellers</h1>
+      <Header/>
+      <Layout>
       <Booklist/>
+      </Layout>
+      
     </>
   )
 }

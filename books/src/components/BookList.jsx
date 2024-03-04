@@ -1,10 +1,36 @@
+import { useState } from 'react';
 import Book from './Book'
 const Booklist = () => {
+
+    const [book, setBook] = useState([
+        {
+            title : "Interesting Facts For Corious Minds",
+            author : "Jordan Moore",
+            img : "./public/images/CuriousMinds.png" 
+        },
+        {
+            title : "Atomic habits",
+            author : "James Clear",
+            img : "./images/AtomicHabits.png"
+        },
+        {
+            title : "Fairy Tale",
+            author : "Stephen King",
+            img : "./images/FairyTale.png"
+        }
+    ]);
+
     return (  
         <div>
-            <Book title ="Interesting Facts For Corious Minds" author ="Jordan Moore" img="/images/CuriousMinds.png"/>
-            <Book title ="Atomic habits" author ="James Clear" img="/images/AtomicHabits.png"/>
-            <Book title ="Fairy Tale" author ="Stephen King" img="/images/FairyTale.png"/>
+
+            {book.map((book, index) => (
+                <Book
+                    key={index}
+                    image={book.img}
+                    title={book.title}
+                    author={book.author}
+                />
+            ))}
         </div>
     );
 }
