@@ -1,0 +1,33 @@
+/* .sidenav {
+    height: 100%;
+    width: 160px;
+    position: fixed; 
+    z-index: 1; 
+    top: 0;
+    left: 0;
+    background-color: #141414;
+    overflow-x: hidden;
+    padding-top: 20px;
+  } */
+
+
+
+/*
+Icons:
+
+Home: import { IoMdHome } from "react-icons/io";
+        <IoMdHome />
+
+brief: import { IoMdMail } from "react-icons/io";
+        <IoMdMail />
+
+Order: import { PiPackageFill } from "react-icons/pi";
+        <PiPackageFill />
+
+
+settings: import { IoMdSettings } from "react-icons/io";
+        <IoMdSettings />
+
+
+
+*/
