@@ -46,7 +46,7 @@ const Packagelist = () => {
     ]);
     
     return (  
-        <div>
+        <div >
 
             {delivery.map((delivery, index) => (
                 <Package

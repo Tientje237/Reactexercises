@@ -1,33 +1,69 @@
-/* .sidenav {
-    height: 100%;
-    width: 160px;
-    position: fixed; 
-    z-index: 1; 
-    top: 0;
-    left: 0;
-    background-color: #141414;
-    overflow-x: hidden;
-    padding-top: 20px;
-  } */
+* {
+  margin: 0;
+  padding: 0;
+}
 
+p {
+  padding: 0 0 15px 0;
+}
 
+H1 {
+  padding: 5px 0 20px 0;
+}
 
-/*
-Icons:
+.layout {
+  display: flex;
+  background-color: #333;
+  color: white;
+  margin-left: 80px;
+  flex-direction: column;
+  padding-left: 10px;
+  margin-top: 10px;
+  width: 300px;
+  height: auto;
+}
 
-Home: import { IoMdHome } from "react-icons/io";
-        <IoMdHome />
+.layoutc {
+  background-color: grey;
+  width: 280px;
+  padding-top: 10px;
+  padding-left: 10px;
+  border-radius: 10px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
 
-brief: import { IoMdMail } from "react-icons/io";
-        <IoMdMail />
+body {
+  background-image: url("../public/images/backgrnd.png");
+}
 
-Order: import { PiPackageFill } from "react-icons/pi";
-        <PiPackageFill />
+.sidebar {
+  height: 100vh;
+  width: 60px;
+  background-color: #333;
+  position: fixed;
+  left: 0;
+  top: 0;
+}
 
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
 
-settings: import { IoMdSettings } from "react-icons/io";
-        <IoMdSettings />
+.sidebar ul li {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding: 12px 10px 8px 10px;
+  width: 20px;
+  text-align: center;
+  background-color: gray;
+  border-radius: 80%;
+}
 
-
-
-*/
+.bottom-icon {
+  margin-top: auto;
+}

@@ -1,15 +1,17 @@
 import './App.css';
 import Package from './components/PackageList';
-import Sidebar from './components/Sidebar';
+import Layout from './components/layout';
+import Nav from './components/nav'
 
 function App() {
 
 
     return (
         <>
-            <Sidebar/>
-            <h1>Delivery Tracking</h1>
+            <Layout>
+            <Nav/>
             <Package/>
+            </Layout>
         </>
     )
 } 
