@@ -1,12 +1,12 @@
 import './App.css';
-import Menusetup from './components/menusetup';
+import Menu from './components/menulist';
 
 function App() {
 
 
     return (
         <>
-            <Menusetup/>
+            <Menu/>
         </>
     )
 } 
