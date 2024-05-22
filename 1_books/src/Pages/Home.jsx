@@ -5,7 +5,6 @@ import Layout from '../components/Layout';
 const Home = () => {
     return (
         <>
-            <Header/>
             <Layout>
             <Booklist/>
             </Layout>

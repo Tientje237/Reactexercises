@@ -16,7 +16,7 @@ const Booklist = () => {
         {
             title : "Fairy Tale",
             author : "Stephen King",
-            img : "./images/FairyTale.png"
+            img : "images/FairyTale.png"
         }
     ]);
 
@@ -26,7 +26,7 @@ const Booklist = () => {
             {book.map((book, index) => (
                 <Book
                     key={index}
-                    image={book.img}
+                    img={book.img}
                     title={book.title}
                     author={book.author}
                 />
