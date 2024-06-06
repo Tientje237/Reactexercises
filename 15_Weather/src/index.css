@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+body {
+  @apply bg-gray-100 text-gray-800;
+}
+
+.App {
+  @apply max-w-md mx-auto mt-10;
+}
+
+input {
+  @apply border p-2 rounded;
+}
+
+button {
+  @apply ml-2 p-2 bg-blue-500 text-white rounded;
+}
+
+.weather-info {
+  @apply p-4 border rounded bg-white shadow;
+}
+
+
+.bg-gray-400 {
+  background-color: #a0aec0; /* Thunderstorm */
+}
+
+.bg-blue-400 {
+  background-color: #63b3ed; /* Drizzle or Rain */
+}
+
+.bg-blue-200 {
+  background-color: #bee3f8; /* Snow */
+}
+
+.bg-gray-300 {
+  background-color: #e2e8f0; /* Atmosphere */
+}
+
+.bg-yellow-200 {
+  background-color: #fefcbf; /* Clear sky */
+}
+
+.bg-gray-200 {
+  background-color: #edf2f7; /* Clouds */
+}
