@@ -29,13 +29,13 @@ const FlashCardList = ({ data }) => {
             />
             <div className="flex mt-4">
                 <button 
-                    className="px-4 py-2 bg-blue-500 text-white rounded mr-2" 
+                    className="px-4 py-2" 
                     onClick={prevCard}
                 >
                     Vorige
                 </button>
                 <button 
-                    className="px-4 py-2 bg-blue-500 text-white rounded" 
+                    className="px-4 py-2" 
                     onClick={nextCard}
                 >
                     Volgende
